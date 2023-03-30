@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+     <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <section class="flex">
+            <a href="#" class="logo"><i class="fa-solid fa-map"></i>LoveTravel</a>
+            <nav class="navbar">
+                <a href="#Home"> Home </a>
+                <a href="#Dishes"> Location </a>
+                <a href="#About"> About </a>
+                <a href="#Menu"> TourGuide </a>
+                <a href="#Review"> Review </a>
+                <a href="#Order"> Register </a>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-bars" id="Menu-bars"></i>
+                <i class="fas fa-search" id="search-icon"></i>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fa-solid fa-car-side"></a>
+            </div>
+        </section>
+
+    </header>
+    <!-- Search Section -->
+    <form action="" id="search-form">
+        <input type="text" placeholder="Search Location Here ..."
+        id="search-box"> 
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-xmark" id="close"></i>
+    </form>
+    <!-- Home Section -->
+     <div class="container">
+        <section class="home" id="home">
+            <div class="swiper home-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>10 ที่เที่ยวเกาะสวยในไทย </span>
+                            <h3>พักผ่อนช่วงซัมเมอร์ คลายร้อน</h3>
+                            <p>แนะนำที่เที่ยวเกาะสวยในไทย เอาไว้เป็นที่เที่ยวทะเลผ่อนคลายรับซัมเมอร์ ทะเลสวย หาดทรายขาว และกิจกรรมทำหลากหลายรอให้เช็กอิน</p>
+                            <a href="#" class="btn">เพิ่มเติม </a>
+                        </div>
+                        <div class="image">
+                            <img src="images/home-img-1.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>9 พิกัดดอยในเชียงราย</span>
+                            <h3>ชมวิวธรรมชาติและขุนเขา มีที่ไหนน่าไป</h3>
+                            <p>ชวนไปแอ่วเหนือเที่ยว ดอยในเชียงราย ชมวิวธรรมชาติ รับลมเย็นสบายบนยอดดอย</p>
+                            <a href="#" class="btn">เพิ่มเติม </a>
+                        </div>
+                        <div class="image">
+                            <img src="images/home-img-2.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>5 ที่พักหน้าร้อน</span>
+                            <h3>หลากหลายสไตล์ให้เลือกพัก ต้อนรับฟีลซัมเมอร์</h3>
+                            <p>แนะนำที่พักหน้าร้อนต้อนรับฟีลซัมเมอร์ หลากหลายประเภท ทั้งที่พักติดทะเล ที่พักริมน้ำ หรือที่พักวิวภูเขา เต็มอิ่มกับการพักผ่อนสุดชิลที่คุณเลือกได้</p>
+                            <a href="#" class="btn">เพิ่มเติม </a>
+                        </div>
+                        <div class="image">
+                            <img src="images/home-img-3.jpg" alt=""/>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+     </div>
+    <!-- Dishes Section -->
+    <div class="container">
+        <section class="dishes" id="dishes">
+            <h3 class="sub-heading">สถานที่</h3>
+            <h1 class="heading">แนะนำ</h1>
+            <div class="box-container">
+                <div class="box">
+                    <a href="#"class="fas fa-heart"></a>
+                    <a href="#"class="fas fa-eye"></a>
+                    <img src="images/1.jpeg" alt=""> 
+                    <h3>หอคอยบรรหาร</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+              
+                    <a href="#"class="btn">เพิ่มเติม</a>
+                </div>
+                <div class="box">
+                    <a href="#"class="fas fa-heart"></a>
+                    <a href="#"class="fas fa-eye"></a>
+                    <img src="images/2.jpeg" alt="">
+                    <h3>หาดชะอำ</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+    
+                    <a href="#"class="btn">เพิ่มเติม</a>
+                </div>
+                <div class="box">
+                    <a href="#"class="fas fa-heart"></a>
+                    <a href="#"class="fas fa-eye"></a>
+                    <img src="images/3.jpg" alt="">
+                    <h3>วัดพระแก้ว</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                         <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                         <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#"class="btn">เพิ่มเติม</a>
+                </div>
+                <div class="box">
+                    <a href="#"class="fas fa-heart"></a>
+                    <a href="#"class="fas fa-eye"></a>
+                    <img src="images/4.jpg" alt="">
+                    <h3>บ่อน้ำพุร้อนฝาง</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+       
+                    <a href="#"class="btn">เพิ่มเติม</a>
+                </div>
+                <div class="box">
+                    <a href="#"class="fas fa-heart"></a>
+                    <a href="#"class="fas fa-eye"></a>
+                    <img src="images/5.jpg" alt="">
+                    <h3> อุทยานพระพิฆเนศ</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+       
+                    <a href="#"class="btn">เพิ่มเติม</a>
+                </div>
+                <div class="box">
+                    <a href="#"class="fas fa-heart"></a>
+                    <a href="#"class="fas fa-eye"></a>
+                    <img src="images/6.jpg" alt="">
+                    <h3>หาดถ้ำพระนาง</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                       <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+         
+                    <a href="#"class="btn">เพิ่มเติม</a>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+    <!-- About Section -->
+        <div class="container">
+            <section class="about">
+                <h3 class="sub-heading">เกี่ยวกับเรา</h3>
+                <h1 class="heading">เว็บไซต์แนะนำสถานที่ท่องเที่ยว</h1>
+                <div class="row">
+                    <div class="image">
+                        <img src="images/about-img.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>เว็บไซต์แนะนำสถานที่ท่องเที่ยวที่ดีที่สุด!!!</h3>
+                        <p>คอนเซปต์พื้นฐานของเวปไซต์นี้ก็คือคุณจะได้รับการต้อนรับที่อบอุ่น เหมือนอยู่บ้าน เเละคุณสามารถเลือกสถานที่ที่คุณต้องการ เลือกที่พักตามใจชอบ หรือเมืองที่คุณอยากไปสิ่งที่คุณจะได้รับจากที่นี่ไม่ว่าคุณจะไปที่ไหนก็ตามและการต้อนรับที่แสนอบอุ่นอยู่เสมอเปรียบเสมือนคุณอยู่ที่บ้าน</p>
+                        <div class="icons-container">
+                            <div class="icons">
+                               <i class="fa-solid fa-location-dot"></i>
+                                <span>สถานที่แนะนำ</span>
+                            </div>
+                            <div class="icons">
+                                <i class="fa-solid fa-face-smile"></i>
+                                <span>ใจดี</span>
+                            </div>
+                            <div class="icons">
+                            <i class="fas fa-headset"></i>
+                                <span>ติดต่อสอบถาม</span>
+                            </div>
+                        </div>
+                        <a href="#"class="btn">เพิ่มเติม</a>
+                        </div>
+                </div>
+            </section>
+        </div>
+    <!-- Menu Section -->
+    <div class="container">
+        <section class="menu" id="menu">
+            <h3 class="sub-heading">ไกด์ นําเที่ยว</h3>
+            <h1 class="heading">มืออาชีพ</h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="images/guide-7.jpg" />
+                        <a class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Jason</h3>
+                        <p>รู้ลึก รู้จริง ข้อมูลแน่น</p>
+                        <a href="#" class="btn">สอบถาม</a>
+                        <span class="price">ฟรี</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/guide-2.jpg" />
+                        <a class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Max</h3>
+                        <p>เป็นช่างภาพส่วนตัว</p>
+                        <a href="#" class="btn">สอบถาม</a>
+                        <span class="price">ฟรี</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/guide-3.jpg" />
+                        <a class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Jessica</h3>
+                        <p>คุยง่าย ต่อรองได้</p>
+                        <a href="#" class="btn">สอบถาม</a>
+                        <span class="price">ฟรี</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/guide-4.jpg" />
+                        <a class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Kate</h3>
+                        <p>แม่นยำ ตรงต่อเวลา</p>
+                        <a href="#" class="btn">สอบถาม</a>
+                        <span class="price">ฟรี</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/guide-5.jpg" />
+                        <a class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Beth</h3>
+                        <p>ปลอดภัยตลอดการเดินทาง</p>
+                        <a href="#" class="btn">สอบถาม</a>
+                        <span class="price">ฟรี</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/guide-8.jpg" />
+                        <a class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Bell</h3>
+                        <p>นิสัยดีมีมารยาท</p>
+                        <a href="#" class="btn">สอบถาม</a>
+                        <span class="price">ฟรี</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Review Section -->
+    <div class="container">
+        <section class="review" id="review">
+            <h3 class="sub-heading">รีวิวจากลูกค้า</h3>
+            <h1 class="heading">ลูกค้าที่ใช้บริการ</h1>
+            <div class="swiper review-slider">
+                <div class="swiper-warpper">
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/guide-6.jpg">
+                            <div class="user-info">
+                                <h3>Nick</h3>
+                                <div class="stars">
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star-half-alt"></i>
+                                 </div>
+                            </div>
+                            <p> 
+                                บริการดี!!! เว็บเข้าใจง่าย</p>
+                        </div>
+                     </div>
+                     
+                     <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/guide-9.jpg">
+                            <div class="user-info">
+                                <h3>Rhea</h3>
+                                <div class="stars">
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star-half-alt"></i>
+                                 </div>
+                            </div>
+                            <p>มีมารยาท ถามตอบตลอด สถานที่แนะนำสวยมากๆ</p>
+                        </div>
+                     </div>
+
+                     <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/guide-11.jpg">
+                            <div class="user-info">
+                                <h3>James</h3>
+                                <div class="stars">
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star-half-alt"></i>
+                                 </div>
+                            </div>
+                            <p>สุภาพมากๆ</p>
+                        </div>
+                     </div>
+
+                     <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/guide-12.jpg">
+                            <div class="user-info">
+                                <h3>Jack</h3>
+                                <div class="stars">
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star-half-alt"></i>
+                                 </div>
+                            </div>
+                            <p>คุยง่ายเป็นกันเอง ใจดี</p>
+                        </div>
+                     </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+    </div>
+    <!-- Order Section -->
+    <div class="container">
+        <section class="order" id="order">
+            <h3 class="sub-heading">สมัครสมาชิก</h3>
+            <h1 class="heading">เพื่อร่วมเดินทางไปกับเรา</h1>
+            <form action="">
+                <div class="inputBox">
+
+                    <div class="input">
+                        <span>ชื่อ</span>
+                        <input type="text" placeholder="ชื่อ"/>
+                    </div>
+
+                    <div class="input">
+                        <span>นามสกุล</span>
+                        <input type="number" placeholder="นามสกุล"/>
+                    </div>
+                    
+                </div>
+
+
+                <div class="inputBox">
+
+                    <div class="input">
+                        <span>รหัสผ่าน</span>
+                        <input type="text" placeholder="รหัสผ่าน"/>
+                    </div>
+
+                    <div class="input">
+                        <span>ยืนยันรหัสผ่าน</span>
+                        <input type="text" placeholder="ยืนยันรหัสผ่าน"/>
+                    </div>
+                    
+                </div>
+
+                
+                <div class="inputBox">
+
+                    <div class="input">
+                        <span></span>
+                        <input type="number" placeholder="ให้คะแนน"/>
+                    </div>
+
+                    <div class="input">
+                        <span>วันเวลาที่สมัคร</span>
+                        <input type="datetime-local"/>
+                    </div>
+                    
+                </div>
+
+                
+                <div class="inputBox">
+
+                    <div class="input">
+                        <span>ที่อยู่</span>
+                        <textarea placeholder="ที่อยู่" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="input">
+                        <span>มีความคิดเห็นอย่างไร</span>
+                        <textarea placeholder="มีความคิดเห็นอย่างไร" cols="30" rows="10"></textarea>
+                    </div>
+                    
+                </div>
+
+                <input type="submit" value="ยืนยัน" class="btn"/>
+            </form>
+        </section>
+    </div>
+    <!-- Footer Section -->
+  <div class="container">
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Location</h3>
+          <a href="#">thai</a>
+          <a href="#">japan</a>
+          <a href="#">france</a>
+          <a href="#">china</a>
+          <a href="#">korea</a>
+        </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">Home</a>
+          <a href="#">Location</a>
+          <a href="#">About</a>
+          <a href="#">TourGuide</a>
+          <a href="#">Review</a>
+          <a href="#">Register</a>
+        </div>
+        <div class="box">
+          <h3>Contact info</h3>
+          <a href="#">012-345-6789</a>
+          <a href="#">092-765-4321</a>
+          <a href="#">karn@gmail.com</a>
+          <a href="#">Nakhon Patom, Thailand</a>
+        </div>
+        <div class="box">
+          <h3>Follow Us</h3>
+          <a href="#">facebook</a>
+          <a href="#">twitter</a>
+          <a href="#">instagram</a>
+          <a href="#">linkedin</a>
+        </div>
+      </div>
+      <div class="credit">copyright @ 2023 by. <span>SE NPRU</span></div>
+    </section>
+  </div>
+  <!--  Loader Section  -->
+<div class="loader-container">
+  <img src="images/loader.gif" alt="">
+</div>
+
+    <!-- Loader Section -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
